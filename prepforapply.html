@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sholarship Applications</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: grid;
+            height: 100vh;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background-color: black;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: turquoise;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        .section:nth-child(odd) {
+            background-color: turquoise;
+        }
+
+        .section:hover {
+            background-color: #333;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .section p {
+            font-size: 1rem;
+            margin-top: 1rem;
+            color: black;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com/watch?v=pUvpN6nojMg" class="section" id="Ouac-guide" target="_blank">OUAC Application Guide</a>
+    <a href="https://www.youtube.com/watch?v=hoZGrPOcnwY" class="section" id="ocas-guide" target="_blank">OCAS Application Guide</a>
+    <a href="https://scholarshipscanada.com/" class="section" id="scholarships" target="_blank">Scholarships
+    <p>The below link can be used to research and browse a variety of different scholarships offered all across Canada.</p></a>
+    <a href="https://www.pdffiller.com/preview/398/247/398247111/large.png" class="section" id="brag-sheet" target="_blank">Brag Sheet
+        <p>The following brag sheet can be used to improve your understanding of what to discuss on your scholarship applications</p>
+    </a>
+</body>
+</html>
